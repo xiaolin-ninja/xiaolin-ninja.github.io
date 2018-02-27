@@ -10,4 +10,4 @@ She communicates in Python, JavaScript, SQL, Ruby, Spanish, Chinese, English, an
 Shirley built this portfolio in a week, with no prior knowledge of React.
 She created the web app [BudBud: A Buddy for Your Bud](https://github.com/xiaolin-ninja/BudBud) in 4 weeks, which features an extensive database of 140 cannabis strains and 60 dispensaries in the SF bay area. She learned to be a good programmer through the software engineering fellowship at [Hackbright Academy](https://hackbrightacademy.com/).
 
-She is excited to combine her new skillset with a background in international business management to make a lasting impact on the world.
+She is excited to combine her new technical skillset with a background in international business management and education in political economy to make a lasting impact on the world.
