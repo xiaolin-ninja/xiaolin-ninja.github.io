@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {init, destroy} from 'ityped';
+import {init} from 'ityped';
 import ScrollArrow from './components/scrollArrow.jsx';
 
 class Welcome extends Component {
@@ -23,13 +23,18 @@ class Welcome extends Component {
         'alignItems': 'center',
         'justifyContent': 'center',
         'color': '#ffffff',
-        'margin-bottom': '10px',
+        'marginBottom': '10px',
       }
+
+    const padding = {
+      'margin': '0.8em',
+      'textAlign': 'left',
+    }
 
     return (
       <section className='Welcome' style={styles}>
         <ScrollArrow />
-        <div><span className='typed' ref='typed' /></div>
+        <div><div className='typed' style={padding} ref='typed' /></div>
       </section>
     );
   }

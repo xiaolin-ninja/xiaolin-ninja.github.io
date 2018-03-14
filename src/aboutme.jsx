@@ -12,15 +12,15 @@ class AboutMe extends Component {
         'height': '200px',
         'width': '100%',
         'display':'flex',
-        'align-items': 'center',
-        'justify-content': 'center',
-        'font-size': '3em',
-        'margin-bottom': '10px'
+        'alignItems': 'center',
+        'justifyContent': 'center',
+        'fontSize': '2.9em',
+        'marginBottom': '10px'
   	  }
 
     const padding =
       {
-        'margin-bottom': '20px',
+        'marginBottom': '20px',
       }
 
   	return (
@@ -51,20 +51,23 @@ class Description extends Component {
   render() {
     const padding =
       {
-        'margin-bottom': '50px',
+        'marginBottom': '50px',
       }
 
     return (
       <div style={padding}>
         <h1 className='linedHeader'>Shirley Xiaolin Xu, M.IA.</h1>
         <ul>
-          <li> My favorite hobby is learning languages, which enables me to connect with people and technology all over the world. </li>
-          <li> I am a full-stack software developer based in San Francisco, California. <br/>
+          <li> Fluent in Spanish, Chinese, English; proficient in Python, JavaScript, SQL, HTML/CSS, Ruby, & French</li>
+          <li> I am a <a href="https://www.github.com/xiaolin-ninja">full-stack software developer</a> based in San Francisco, California.<br/>
             Past identities:
             <ul>
-            <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank">Business Development Consultant</a> </li>
-            <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank">International Affairs Scholar</a> </li>
-            <li> Travel blogger <a target="_blank" href="https://instagram.com/xiaolin.ninja">@xiaolin.ninja</a></li>
+            <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
+                Business Development Consultant</a></li>
+            <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank" rel="noopener noreferrer">
+                International Affairs Scholar</a></li>
+            <li> Travel blogger <a target="_blank" href="https://instagram.com/xiaolin.ninja" rel="noopener noreferrer">
+                @xiaolin.ninja</a></li>
             <li> Airbnb Host, Pilates Instructor, English Professor, & Model Agent <br/> </li>
             </ul>
           </li>
@@ -76,11 +79,16 @@ class Description extends Component {
 
 class Photo extends Component {
   render() {
+    const padding =
+      {
+        'margin': '0.6em',
+      }
+
     return (
         <div>
         <img className='img-responsive center-block myPhoto' src={'./assets/trainMe.jpg'}
              alt='' width="100%" height='100%' />
-        <p> I strive to improve daily and live a life of adventure, courage, and compassion. 🌸</p>
+        <p style={padding}> I strive to improve daily and live a life of adventure, courage, and compassion. <span role="img" aria-label="emoji">🌸</span></p>
         </div>
     )
   }
