@@ -9,7 +9,7 @@ class Experiences extends Component {
   render() {
   	const styles =
   	  {
-        'margin-bottom': '20px',
+        'marginBottom': '20px',
   	  }
 
   	return (

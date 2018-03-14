@@ -6,7 +6,7 @@ class Footer extends Component {
   	const styles =
   	{
       'height': '140px',
-      'margin-top': '20px',
+      'marginTop': '20px',
     }
 
     return (

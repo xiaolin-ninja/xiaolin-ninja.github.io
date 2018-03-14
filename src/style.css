@@ -1,6 +1,6 @@
 @font-face {
     font-family: Dosis;
-    src: url(./assets/dosis/Dosis-Regular.otf);
+    src: url(/assets/dosis/Dosis-Regular.otf);
 }
 
 body {
@@ -25,14 +25,14 @@ body {
 }
 
 .Projects {
-  background-image: url('./assets/projectsbg.jpg');
+  background-image: url('/assets/projectsbg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Welcome {
-  background-image: url('./assets/rockTurtle.jpg');
+  background-image: url('/assets/rockTurtle.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -46,14 +46,14 @@ body {
 }
 
 .Experiences {
-  background-image: url('./assets/experiencesbg.jpg');
+  background-image: url('/assets/experiencesbg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .Skills {
-  background-image: url('./assets/monroe.jpg');
+  background-image: url('/assets/monroe.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
