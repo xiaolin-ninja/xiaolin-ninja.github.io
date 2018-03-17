@@ -20,7 +20,7 @@ class Skills extends Component {
 
     const paddingB =
       {
-        'marginBottom': '40px',
+        'marginBottom': '50px',
       }
 
     const paddingT =
@@ -34,9 +34,20 @@ class Skills extends Component {
           <Grid>
           <div style={paddingT} />
             <Row>
-              <Description title='Full Stack' body='Python, JavaScript, Ruby, React, Flask, PostGreSQL, and whatever I can learn. In 3 months, I went from zero exposure to .' />
-              <Description title='Business Acumen' body="I'm super cool because of these reasons I guess." />
-              <Description title='Development' body='Creator, designer, project manager, developer, and tester: in 4 weeks, I built BudBud from scratch with no prior software background. I practiced Agile methodologies & development best practices.' />
+              <Description title='Cross Functional' body='Creator, project
+              manager, developer, designer, and tester. I built my first dynamic
+              web application in 4 weeks, practicing agile methodologies. I was
+              chosen to
+              present BudBud at Hackbright Academy
+              graduation.'/>
+              <Description title='Full Stack' body='Python, JavaScript,
+              PostGreSQL, React.js, Flask, Jinja, HTML/CSS, jQuery, & more
+              to learn!'/>
+              <Description title='Versatile' body="Highly adaptable
+              software
+              engineer with business acumen & professional experience in 3 continents. Calculated risk-taker. Experienced
+              in identifying &
+              meeting consumer needs, equally logical and creative." />
             </Row>
           </Grid>
           <Row>
@@ -59,7 +70,7 @@ class Description extends Component {
   	  }
 
     const body = {
-      'background': 'rgba(255,255,255,0.5)',
+      'background': 'rgba(255,255,255,0.55)',
       'padding': '0.5em'
     }
 

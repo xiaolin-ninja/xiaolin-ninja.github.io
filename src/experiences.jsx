@@ -9,17 +9,31 @@ class Experiences extends Component {
   render() {
   	const styles =
   	  {
-        'marginBottom': '20px',
+        'marginBottom': '10px',
+        'paddingBottom': '20px'
   	  }
 
   	return (
   	  <section className='Experiences' style={styles}>
-        <div className='header' ref='header' style={styles}>Experiences</div>
+        <div className='header' ref='header' style={styles}>Education &
+        Experiences</div>
         <Grid fluid>
           <Row>
-            <Col className='noPad' xs={12} sm={4}><Box url='https://www.kudolife.com' bg='./assets/kudolifebg.jpg' logo='./assets/prizmmedialogo.png' description='Junior Software Developer' /></Col>
-            <Col className='noPad' xs={12} sm={4}><Box url='http://lc.landfood.ubc.ca' bg='./assets/ubcbg.jpg' logo='./assets/ubclogo.png' description='IT Tech Support' /></Col>
-            <Col className='noPad' xs={12} sm={4}><Box url='https://fusionpipe.com' bg='./assets/fusionpipebg.jpg' logo='./assets/fusionpipelogo.png' description='Multi-Factor Authentication' /></Col>
+            <Col className='noPad' xs={12} sm={4}><Box
+            url='https://www.linkedin.com/in/shxxu' bg='./assets/sdun.png'
+            logo='/assets/ucsd.png' description='Masters in
+            International Affairs'/></Col>
+            <Col className='noPad' xs={12} sm={4}><Box
+            url='https://www.linkedin.com/in/shxxu'
+            bg='./assets/hbpresentation.png'
+            logo='/assets/hblogo.png' description='Software Engineering
+            Fellow'
+            /></Col>
+            <Col className='noPad' xs={12} sm={4}><Box
+            url='https://www.linkedin.com/in/shxxu'
+            logo='./assets/silverflylogo.jpg'
+            bg='./assets/silverfly.png' description='Co-Founder'
+            /></Col>
           </Row>
         </Grid>
       </section>
@@ -38,12 +52,27 @@ class Box extends Component {
   };
 
   render() {
+
+    const text =
+    {
+      'position': 'absolute',
+      'textAlign': 'center'
+    }
+
+    const img =
+    {
+      'position': 'relative'
+    }
+
     return (
       <div ref='box'>
         <div className='circleWrapper'>
           <img className='circleBgWrapper' src={this.props.bg}  alt=''/>
           <div className='circleContentWrapper clickable' onClick={() => this.openNew(this.props.url)}>
-           <img className='logoWrapper' src={this.props.logo} alt=''/>
+          <br/><br/>
+           <h5 style={text}>{this.props.description}</h5>
+           <img className='logoWrapper' src={this.props.logo} alt=''
+           style={img} />
           </div>
           </div>
         </div>
