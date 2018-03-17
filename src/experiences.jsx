@@ -16,7 +16,7 @@ class Experiences extends Component {
   	return (
   	  <section className='Experiences' style={styles}>
         <div className='header' ref='header' style={styles}>Education &
-        Experiences</div>
+        Experience</div>
         <Grid fluid>
           <Row>
             <Col className='noPad' xs={12} sm={4}><Box
