@@ -20,9 +20,10 @@ class Experiences extends Component {
         <Grid fluid>
           <Row>
             <Col className='noPad' xs={12} sm={4}><Box
-            url='https://www.linkedin.com/in/shxxu' bg='./assets/sdun.png'
-            logo='/assets/ucsd.png' description='Masters in
-            International Affairs'/></Col>
+            url='https://www.linkedin.com/in/shxxu'
+            logo='./assets/silverflylogo.jpg'
+            bg='./assets/silverfly.png' description='Co-Founder'
+            /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
             bg='./assets/hbpresentation.png'
@@ -30,10 +31,9 @@ class Experiences extends Component {
             Fellow'
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
-            url='https://www.linkedin.com/in/shxxu'
-            logo='./assets/silverflylogo.jpg'
-            bg='./assets/silverfly.png' description='Co-Founder'
-            /></Col>
+            url='https://www.linkedin.com/in/shxxu' bg='./assets/sdun.png'
+            logo='/assets/ucsd.png' description='Masters in
+            International Affairs'/></Col>
           </Row>
         </Grid>
       </section>
