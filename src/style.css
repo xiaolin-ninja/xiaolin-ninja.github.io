@@ -10,6 +10,20 @@ body {
   font-size: 2em;
 }
 
+a {
+  text-decoration: none;
+  color: #16772c;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b76839;
+}
+
+p {
+  text-shadow:0 0 0 #f00, 0 0 1px transparent;
+}
+
 .header {
   height: 200px;
   display:flex;
@@ -40,9 +54,14 @@ body {
 
 .AboutMe {
   background:
-    url("https://www.toptal.com/designers/subtlepatterns/patterns/large_leather.png");
-  background-repeat: repeat;
+    linear-gradient(
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.25)
+    ),
+    url("/assets/wood.jpg");
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .Experiences {
@@ -53,20 +72,17 @@ body {
 }
 
 .Skills {
-  background:
-    linear-gradient(
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0.15)
-    ),
-    url('/assets/monroe.jpg');
+  background-image:
+    url('/assets/ocean.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #fff;
 }
 
 
 .Footer {
-  background-color: #201F20;
+  background-color: #000914;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

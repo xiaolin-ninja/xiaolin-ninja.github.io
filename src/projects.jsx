@@ -22,7 +22,10 @@ class Projects extends Component {
             bg='./assets/skull.jpg' description='Work in Progress' />
             <Circle url='http://budbud.outsidethebox.live'
             bg='./assets/budbud.png'
-            description='BudBud: A Buddy for Your Bud' />
+            description='Dynamic web app with
+            relational database. Stack: Python
+            (Flask, Jinja),
+            JavaScript (jQuery), PostgreSQL'/>
             <Circle url='https://github.com/xiaolin-ninja/'
             bg='./assets/skull.jpg' description='Work in Progress' />
           </Row>
