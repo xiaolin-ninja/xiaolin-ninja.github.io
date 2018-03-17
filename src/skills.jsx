@@ -43,7 +43,8 @@ class Skills extends Component {
               <Description title='Well-Rounded' body='Python, JavaScript,
               PostgreSQL, React.js, Flask, Jinja, HTML/CSS, jQuery, Bootstrap,
               STATA &
-              more to learn! This website is built with React.js.'/>
+              more to learn! This website is built from scratch with
+              React.js.'/>
               <Description title='Adaptable' body="Highly versatile
               software
               engineer with business acumen & professional experience in 3
