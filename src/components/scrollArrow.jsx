@@ -11,9 +11,11 @@ export default class ScrollArrow extends Component {
 
     return (
       <div style={styles}>
-        <svg width="15.5" height="20.2" stroke="white" fill="white">
-          <path d="M0 12.4l7.8 7.8 7.7-7.8-1-1-6 6V0H7v17.4l-6-6" />
-        </svg>
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
       </div>
     );
   }}
