@@ -9,7 +9,8 @@ class Projects extends Component {
   render() {
     const styles =
       {
-      'marginBottom': '20px',
+      'marginBottom': '10px',
+      'paddingBottom': '30px'
       }
 
     return (
@@ -17,9 +18,13 @@ class Projects extends Component {
         <div className="header" ref='header'> Projects</div>
         <Grid fluid>
           <Row style={styles}>
-            <Circle url='https://github.com/xiaolin-ninja/' bg='./assets/skull.jpg' description='Description1' />
-            <Circle url='https://github.com/xiaolin-ninja/' bg='./assets/skull.jpg' description='Description2' />
-            <Circle url='https://github.com/xiaolin-ninja/' bg='./assets/skull.jpg' description='Description3' />
+            <Circle url='https://github.com/xiaolin-ninja/'
+            bg='./assets/skull.jpg' description='Work in Progress' />
+            <Circle url='http://budbud.outsidethebox.live'
+            bg='./assets/budbud.png'
+            description='BudBud: A Buddy for Your Bud' />
+            <Circle url='https://github.com/xiaolin-ninja/'
+            bg='./assets/skull.jpg' description='Work in Progress' />
           </Row>
         </Grid>
       </section>

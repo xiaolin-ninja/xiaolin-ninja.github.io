@@ -20,7 +20,7 @@ class AboutMe extends Component {
 
     const padding =
       {
-        'marginBottom': '20px',
+        'marginBottom': '10px',
       }
 
   	return (

@@ -5,13 +5,15 @@ import ScrollArrow from './components/scrollArrow.jsx';
 class Welcome extends Component {
   componentDidMount() {
     init(this.refs.typed, {
-      strings:['Who is Shirley?', 'Full-Stack Software Engineer.  Adventurer.  Scroll for more...',],
-      typeSpeed: 100,
-      backspeed: 30,
-      startDelay: 800,
-      backDelay: 400,
+      strings:
+      ['Shirley Xiaolin Xu',
+      'Software Engineer. Adventurer. Scroll for more...'],
+      typeSpeed: 70,
+      backspeed: 5,
+      startDelay: 400,
+      backDelay: 300,
       loop: true,
-      showCursor: false,
+      showCursor: true,
     });
   }
 
@@ -27,14 +29,14 @@ class Welcome extends Component {
       }
 
     const padding = {
-      'margin': '0.8em',
+      'margin-left': '0.8em',
       'textAlign': 'left',
     }
 
     return (
       <section className='Welcome' style={styles}>
         <ScrollArrow />
-        <div><div className='typed' style={padding} ref='typed' /></div>
+        <div className='typed' style={padding} ref='typed' />
       </section>
     );
   }

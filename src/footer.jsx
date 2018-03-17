@@ -6,7 +6,7 @@ class Footer extends Component {
   	const styles =
   	{
       'height': '140px',
-      'marginTop': '20px',
+      'marginTop': '10px',
     }
 
     return (
@@ -16,7 +16,8 @@ class Footer extends Component {
           <Col xs={3} />
           <Icon url='https://github.com/xiaolin-ninja' icon='./assets/githublogo.png' />
           <Icon url='https://www.linkedin.com/in/shxxu/' icon='./assets/linkedinlogo.png' />
-          <Icon url='mailto:xiaolin@tuta.io' icon='./assets/emaillogo.png' />
+          <Icon url='mailto:shirleyxiaolinxu@gmail.com'
+          icon='./assets/emaillogo.png'/>
           <Col xs={3} />
           </Row>
         </Grid>
