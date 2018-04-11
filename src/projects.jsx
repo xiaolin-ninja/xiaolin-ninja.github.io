@@ -18,14 +18,15 @@ class Projects extends Component {
         <div className="header" ref='header'> Projects</div>
         <Grid fluid>
           <Row style={styles}>
-            <Circle url='https://github.com/xiaolin-ninja/'
-            bg='./assets/skull.jpg' description='Work in Progress' />
+            <Circle url='https://github.com/xiaolin-ninja/https://github.com/xiaolin-ninja/judgmental-eye-hb'
+            bg='./assets/eye.png'
+            description='Judgmental Eye: Machine learning AI & prediction algorithm based on user input. (Python, Flask, PosgreSQL, HTML/CSS)' />
             <Circle url='http://budbud.outsidethebox.live'
             bg='./assets/budbud.png'
             description='Dynamic web app with
             relational database. Stack: Python
             (Flask, Jinja),
-            JavaScript (jQuery), PostgreSQL'/>
+            JavaScript (jQuery), PostgreSQL, Bootstrap'/>
             <Circle url='https://github.com/xiaolin-ninja/'
             bg='./assets/skull.jpg' description='Work in Progress' />
           </Row>
