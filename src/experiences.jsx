@@ -31,7 +31,7 @@ class Experiences extends Component {
             Fellow'
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
-            url='https://www.linkedin.com/in/shxxu' bg='./assets/sdun.png'
+            url='https://www.linkedin.com/in/shxxu' bg='./assets/gf.jpg'
             logo='/assets/ucsd.png' description='Masters in
             International Affairs'/></Col>
           </Row>
