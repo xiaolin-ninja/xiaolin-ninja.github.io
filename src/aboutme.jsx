@@ -68,7 +68,7 @@ class Description extends Component {
                 International Affairs Scholar</a></li>
             <li> Travel blogger <a target="_blank" href="https://instagram.com/xiaolin.ninja" rel="noopener noreferrer">
                 @xiaolin.ninja</a></li>
-            <li> Airbnb Host, Pilates Instructor, English Professor, & Model Agent <br/> </li>
+            <li> Model Agent, Airbnb Host, Pilates Instructor, & ESL Teacher <br/> </li>
             </ul>
           </li>
         </ul>
@@ -88,7 +88,7 @@ class Photo extends Component {
         <div>
         <img className='img-responsive center-block myPhoto' src={'./assets/trainMe.jpg'}
              alt='' width="100%" height='100%' />
-        <p style={padding}> I strive to improve daily and live a life of adventure, courage, and compassion. <span role="img" aria-label="emoji">🌸</span></p>
+        <p style={padding}> I strive to live a life of adventure, courage, and compassion. <span role="img" aria-label="emoji">🌸</span></p>
         </div>
     )
   }

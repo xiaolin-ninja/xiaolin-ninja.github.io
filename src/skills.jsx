@@ -41,17 +41,17 @@ class Skills extends Component {
               present "BudBud: A Buddy for your Bud" at Hackbright Academy
               graduation.'/>
               <Description title='Well-Rounded' body='Python, JavaScript,
-              PostgreSQL, React.js, Flask, Jinja, HTML/CSS, jQuery, Bootstrap,
+              PostgreSQL, Redis, React.js, Flask, Jinja, HTML/CSS, jQuery, Bootstrap,
               STATA &
               more to learn! This website is built with
-              React.js and CSS.'/>
+              React.JS and CSS.'/>
               <Description title='Adaptable' body="Highly versatile
               software
-              engineer with business acumen & professional experience in 3
+              engineer with business acumen & international experience in 3
               continents. Calculated risk-taker. Equally logical and
               creative; experienced
               in identifying &
-              meeting consumer needs." />
+              meeting stakeholder needs." />
             </Row>
           </Grid>
           <Row>

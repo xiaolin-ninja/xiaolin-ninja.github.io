@@ -18,17 +18,15 @@ class Projects extends Component {
         <div className="header" ref='header'> Projects</div>
         <Grid fluid>
           <Row style={styles}>
-            <Circle url='https://github.com/xiaolin-ninja/https://github.com/xiaolin-ninja/judgmental-eye-hb'
-            bg='./assets/eye.png'
-            description='Judgmental Eye: Machine learning AI & prediction algorithm based on user input. (Python, Flask, PosgreSQL, HTML/CSS)' />
+            <Circle url='https://github.com/xiaolin-ninja/simple_job_queue'
+            bg='./assets/workerbot.png' description='Distributed Task Queue for Web Scraping. (Flask RESTful API, Redis, PostgreSQL)' />
             <Circle url='http://budbud.outsidethebox.live'
             bg='./assets/budbud.png'
-            description='Dynamic web app with
-            relational database. Stack: Python
-            (Flask, Jinja),
-            JavaScript (jQuery), PostgreSQL, Bootstrap'/>
-            <Circle url='https://github.com/xiaolin-ninja/'
-            bg='./assets/skull.jpg' description='Work in Progress' />
+            description='Dynamic Flask Web App w/ PostgreSQL
+            Relational Database & jQuery UI. budbud.outsidethebox.live'/>
+            <Circle url='https://github.com/xiaolin-ninja/judgmental-eye-hb'
+            bg='./assets/eye.png'
+            description='Judgmental Eye: Machine learning AI & movie ratings prediction algorithm. (Python, Flask, PosgreSQL, Bootstrap)' />
           </Row>
         </Grid>
       </section>

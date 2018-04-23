@@ -19,7 +19,7 @@ class Footer extends Component {
           <Icon url='mailto:shirleyxiaolinxu@gmail.com'
           icon='./assets/emaillogo.png'/>
           <Icon
-          url='https://drive.google.com/file/d/1VVsWrJg2Mb09kYPFhuTNd68e-ODagIhs/'
+          url='https://drive.google.com/file/d/1Bs3dYQJYbsOUTJwXG_rKC2QU4mcEIwvv/'
           icon='./assets/heels.png'/>
           <Col xs={3} />
           </Row>
