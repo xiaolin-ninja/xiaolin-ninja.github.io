@@ -22,18 +22,17 @@ class Experiences extends Component {
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
             logo='./assets/silverflylogo.jpg'
-            bg='./assets/silverfly.png' description='Co-Founder'
+            bg='./assets/silverfly.png'
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
             bg='./assets/hbpresentation.png'
-            logo='/assets/hblogo.png' description='Software Engineering
-            Fellow'
+            logo='/assets/hblogo.png'
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu' bg='./assets/gf.jpg'
-            logo='/assets/ucsd.png' description='Masters in
-            International Affairs'/></Col>
+            logo='/assets/ucsd.png' 
+            /></Col>
           </Row>
         </Grid>
       </section>
