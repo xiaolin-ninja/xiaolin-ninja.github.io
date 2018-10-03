@@ -58,8 +58,8 @@ class Description extends Component {
       <div style={padding}>
         <h1 className='linedHeader'>Shirley Xiaolin Xu, M.IA.</h1>
         <ul>
-          <li> Fluent in Spanish, Chinese, English; proficient in Python, JavaScript, SQL, HTML/CSS, Ruby, & French</li>
-          <li> I am a <a href="https://www.github.com/xiaolin-ninja">full-stack software developer</a> based in San Francisco, California.<br/>
+          <li> Fluent in Spanish, Chinese, English; proficient in Ruby, Python, JavaScript, SQL, HTML/CSS, & French</li>
+          <li> Back-end <a href="https://www.github.com/xiaolin-ninja">software engineer</a> at Heroku, a product of Salesforce.<br/>
             Past identities:
             <ul>
             <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
@@ -86,9 +86,9 @@ class Photo extends Component {
 
     return (
         <div>
-        <img className='img-responsive center-block myPhoto' src={'./assets/trainMe.jpg'}
+        <img className='img-responsive center-block myPhoto' src={'./assets/sftower.jpg'}
              alt='' width="100%" height='100%' />
-        <p style={padding}> I strive to live a life of adventure, courage, and compassion. <span role="img" aria-label="emoji">🌸</span></p>
+        <p style={padding}> I live a life of adventure & compassion. <span role="img" aria-label="emoji">🌸</span></p>
         </div>
     )
   }
