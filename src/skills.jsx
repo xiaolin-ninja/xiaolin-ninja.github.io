@@ -39,8 +39,7 @@ class Skills extends Component {
 
               <Description title='Well-Rounded' body='I primarily code in Ruby & SQL at Heroku/Salesforce, and C++ at NYU. I learned to code with Python, built this portfolio in React JS, and analyzed data using STATA, R, & Excel at UCSD.'/>
 
-              <Description title='Versatile' body="Interdisciplinary
-              professional experienced in identifying stakeholder needs and delivering quality code. I am pursuing a Masters in Cybersecurity at NYU. I hold a Masters in International Business from UCSD, ran a boutique talent agency, and made the career switch in 2018 to chase dreams & challenge convention." />
+              <Description title='Versatile' body="I am pursuing a Masters in Cybersecurity at NYU. I hold a Masters in International Business from UCSD, ran a boutique talent agency, and made the career switch in 2018 to chase dreams & challenge convention." />
             </Row>
           </Grid>
           <Row>

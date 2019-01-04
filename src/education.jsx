@@ -25,8 +25,8 @@ class Education extends Component {
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
-            logo='./assets/tandon.jpg'
-            bg='./assets/nyuu.png'
+            logo='./assets/tandon.png'
+            bg='./assets/nyuu.jpg'
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
