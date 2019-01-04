@@ -5,8 +5,8 @@ import './components.css';
 
 import Welcome from './welcome.jsx';
 import ScrollArrow from './components/scrollArrow.jsx';
-import Experiences from './experiences.jsx';
-import Projects from './projects.jsx';
+import Education from './education.jsx';
+import Experience from './experience.jsx';
 import AboutMe from './aboutme';
 import Skills from './skills';
 import Footer from './footer';
@@ -15,9 +15,9 @@ ReactDOM.render(
   <div>
     <ScrollArrow />
     <Welcome />
-    <Experiences />
-    <Projects />
     <AboutMe />
+    <Experience />
+    <Education />
     <Skills />
     <Footer />
   </div>,

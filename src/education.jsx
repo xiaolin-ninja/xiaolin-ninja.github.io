@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import sr from './components/scrollReveal.jsx';
 
-class Experiences extends Component {
+class Education extends Component {
   componentDidMount() {
     sr.reveal(this.refs.header, {reset:true, viewFactor: 0.4, useDelay: 'onload'})
   }
@@ -14,24 +14,24 @@ class Experiences extends Component {
   	  }
 
   	return (
-  	  <section className='Experiences' style={styles}>
-        <div className='header' ref='header' style={styles}>Education &
-        Experience</div>
+  	  <section className='Education' style={styles}>
+        <div className='header' ref='header' style={styles}>Education</div>
         <Grid fluid>
           <Row>
             <Col className='noPad' xs={12} sm={4}><Box
+            url='https://www.linkedin.com/in/shxxu' 
+            bg='./assets/gf.jpg'
+            logo='/assets/ucsd.png' 
+            /></Col>
+            <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
-            logo='./assets/silverflylogo.jpg'
-            bg='./assets/silverfly.png'
+            logo='./assets/tandon.jpg'
+            bg='./assets/nyuu.png'
             /></Col>
             <Col className='noPad' xs={12} sm={4}><Box
             url='https://www.linkedin.com/in/shxxu'
             bg='./assets/hbpresentation.png'
             logo='/assets/hblogo.png'
-            /></Col>
-            <Col className='noPad' xs={12} sm={4}><Box
-            url='https://www.linkedin.com/in/shxxu' bg='./assets/gf.jpg'
-            logo='/assets/ucsd.png' 
             /></Col>
           </Row>
         </Grid>
@@ -79,4 +79,4 @@ class Box extends Component {
   }
 }
 
-export default Experiences;
+export default Education;

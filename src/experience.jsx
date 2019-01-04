@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import sr from './components/scrollReveal.jsx';
 
-class Projects extends Component {
+class Experience extends Component {
   componentDidMount() {
     sr.reveal(this.refs.header, {reset:true, viewFactor: 0.4, useDelay: 'onload'})
   }
@@ -14,19 +14,19 @@ class Projects extends Component {
       }
 
     return (
-      <section className='Projects'>
-        <div className="header" ref='header'> Projects</div>
+      <section className='Experience'>
+        <div className="header" ref='header'> Experience</div>
         <Grid fluid>
           <Row style={styles}>
-            <Circle url='https://github.com/xiaolin-ninja/simple_job_queue'
-            bg='./assets/workerbot.png' description='Distributed Task Queue for Web Scraping. (Flask RESTful API, Redis, PostgreSQL)' />
+            <Circle url='https://www.linkedin.com/in/shxxu'
+            bg='./assets/heroku.png' 
+            description='Software Engineer on the Core API Team, focusing on Security' />
             <Circle url='http://budbud.outsidethebox.live'
             bg='./assets/budbud.png'
-            description='Dynamic Flask Web App w/ PostgreSQL
-            Relational Database & jQuery UI. budbud.outsidethebox.live'/>
+            description='BudBud, a Buddy for your Bud. budbud.outsidethebox.live'/>
             <Circle url='https://github.com/xiaolin-ninja/judgmental-eye-hb'
             bg='./assets/eye.png'
-            description='Judgmental Eye: Machine learning AI & movie ratings prediction algorithm. (Python, Flask, PosgreSQL, Bootstrap)' />
+            description='Judgmental Eye: Machine learning AI & movie ratings prediction algorithm.' />
           </Row>
         </Grid>
       </section>
@@ -62,4 +62,4 @@ class Circle extends Component {
   }
 }
 
-export default Projects;
+export default Experience;

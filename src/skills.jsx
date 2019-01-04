@@ -35,13 +35,12 @@ class Skills extends Component {
           <div style={paddingT} />
             <Row>
               <Description title='Cross-Functional' body='Designer, project
-              manager, developer, and tester. I built my first dynamic
-              web application in 4 weeks, practicing agile methodologies. I was
-              chosen to present "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.'/>
-              <Description title='Well-Rounded' body='Ruby, Python, JavaScript,
-              PostgreSQL, Redis, React.js, Flask, Jinja, Rails, Sinatra, HTML/CSS, jQuery, Bootstrap, STATA & more to learn! This website is designed by me, built with React.JS and CSS, and hosted on Heroku.'/>
-              <Description title='Adaptable' body="Highly versatile
-              software engineer experienced in identifying and satisfying stakeholder needs. I hold a Masters in International Affairs, ran a small business, and made the career switch in 2018 to chase dreams & challenge convention." />
+              manager, developer, and tester. It took me 4 weeks to build & deploy my first full-stack web application with a dynamic database. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.'/>
+
+              <Description title='Well-Rounded' body='I primarily code in Ruby & SQL at Heroku/Salesforce, and C++ at NYU. I learned to code with Python, built this portfolio in React JS, and analyzed data using STATA, R, & Excel at UCSD.'/>
+
+              <Description title='Versatile' body="Interdisciplinary
+              professional experienced in identifying stakeholder needs and delivering quality code. I am pursuing a Masters in Cybersecurity at NYU. I hold a Masters in International Business from UCSD, ran a boutique talent agency, and made the career switch in 2018 to chase dreams & challenge convention." />
             </Row>
           </Grid>
           <Row>

@@ -38,7 +38,7 @@ p {
 	padding: 0;
 }
 
-.Projects {
+.Experience {
   background-image: url('/assets/projectsbg.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +64,7 @@ p {
   background-size: cover;
 }
 
-.Experiences {
+.Education {
   background-image: url('/assets/experiencesbg.jpg');
   background-repeat: no-repeat;
   background-position: center;
