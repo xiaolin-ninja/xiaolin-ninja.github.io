@@ -56,8 +56,8 @@ class Description extends Component {
 
     return (
       <div style={padding}>
+        <h1 className='linedHeader'>Shirley Xiaolin Xu, M.IA.</h1>
         <ul>
-          Interdisciplinary professional experienced in identifying stakeholder needs and delivering quality code.
           <li> Fluent in Spanish, Chinese, English; proficient in Ruby, Python, JavaScript, SQL, HTML/CSS; learning C++, French, & German.</li>
           <li> Back-end <a href="https://www.github.com/xiaolin-ninja">software engineer</a> at Heroku, a product of Salesforce.<br/>
             Past identities:
@@ -86,7 +86,6 @@ class Photo extends Component {
 
     return (
         <div>
-        <h1 className='linedHeader'>Shirley Xiaolin Xu, M.IA.</h1>
         <img className='img-responsive center-block myPhoto' src={'./assets/sftower.jpg'}
              alt='' width="100%" height='100%' />
         <p style={padding}> I learn languages to connect with people all over the world. <span role="img" aria-label="emoji">🌸</span></p>
