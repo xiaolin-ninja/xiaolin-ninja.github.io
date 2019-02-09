@@ -20,7 +20,7 @@ class Experience extends Component {
           <Row style={styles}>
             <Circle url='https://www.linkedin.com/in/shxxu'
             bg='./assets/heroku.png' 
-            description='Software Engineer on the Core API Team, focusing on Security' />
+            description='Developer on the Core API Team, focusing on Security & Scalability' />
             <Circle url='http://budbud.outsidethebox.live'
             bg='./assets/budbud.png'
             description='BudBud, a Buddy for your Bud. budbud.outsidethebox.live'/>
