@@ -86,7 +86,7 @@ class Photo extends Component {
 
     return (
         <div>
-        <img className='img-responsive center-block myPhoto' src={'./assets/sftower.jpg'}
+        <img className='img-responsive center-block myPhoto' src={'./assets/uke2.jpg'}
              alt='' width="100%" height='100%' />
         <p style={padding}> I learn languages to connect with people all over the world. <span role="img" aria-label="emoji">🌸</span></p>
         </div>
