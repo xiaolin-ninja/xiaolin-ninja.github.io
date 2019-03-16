@@ -34,12 +34,12 @@ class Skills extends Component {
           <Grid>
           <div style={paddingT} />
             <Row>
-              <Description title='Cross-Functional' body='Designer, project
-              manager, developer, and tester. It took me 4 weeks to build & deploy my first full-stack web application with a dynamic database. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.'/>
+              <Description title='Cross-Functional' body='Developer, designer, project
+              manager, and tester. It took me 4 weeks to build & deploy my first full-stack web application with a dynamic database. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.'/>
 
               <Description title='Well-Rounded' body='I primarily code in Ruby & SQL at Heroku/Salesforce, and C++ at NYU. I learned to code with Python, built this portfolio in React JS, and analyzed data using STATA, R, & Excel at UCSD.'/>
 
-              <Description title='Versatile' body="I am pursuing a Masters in Cybersecurity at NYU. I hold a Masters in International Business from UCSD, ran a boutique talent agency, and made the career switch in 2018 to chase dreams & challenge convention." />
+              <Description title='Versatile' body="I am pursuing a Masters in Cybersecurity at NYU. I hold a dual-Masters in International Business Management and Environmental Policy from UCSD, and made the career switch to programming in 2018 to chase dreams & challenge convention." />
             </Row>
           </Grid>
           <Row>
