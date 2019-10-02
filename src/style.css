@@ -38,12 +38,19 @@ p {
 	padding: 0;
 }
 
-.Experience {
+.photo {
+  border-radius: 10%;
+  padding-bottom: 30px;
+  height: auto;
+}
+
+/*.Experience {
   background-image: url('/assets/projectsbg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+*/
 
 .Welcome {
   background-image: url('/assets/rockTurtle.jpg');
@@ -56,12 +63,14 @@ p {
   background:
     linear-gradient(
       rgba(255, 255, 255, 0.25),
-      rgba(255, 255, 255, 0.25)
+      rgba(255, 255, 255, 0.5)
     ),
     url("/assets/wood.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: justify;
+  font-size: 99%;
 }
 
 .Education {
@@ -69,6 +78,8 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #fff;
+  position: center;
 }
 
 .Skills {
@@ -78,6 +89,8 @@ p {
   background-position: center;
   background-size: cover;
   color: #fff;
+  font-size: 75%;
+  text-align: justify;
 }
 
 

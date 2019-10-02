@@ -3,20 +3,27 @@
   "homepage": "https://xiaolin-ninja.github.io/",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.5.0",
+    "npm": "6.13.1"
+  },
   "dependencies": {
-    "ajv": "^6.1.1",
-    "ityped": "^1.0.1",
-    "npm": "^5.7.1",
-    "react": "^16.2.0",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.2.0",
+    "ajv": "^6.12.0",
+    "ityped": "^1.0.3",
+    "minimist": "^1.2.5",
+    "npm": "^6.14.3",
+    "react": "^16.13.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.13.1",
     "react-sidebar": "^2.3.2",
-    "scrollreveal": "^3.3.6"
+    "scrollreveal": "^3.4.0",
+    "typescript": "^3.8.3",
+    "update-node": "^0.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "react-scripts": "^1.1.1",
-    "webpack-node-externals": "^1.6.0"
+    "gh-pages": "^2.2.0",
+    "react-scripts": "^3.4.1",
+    "webpack-node-externals": "^1.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,5 +32,17 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

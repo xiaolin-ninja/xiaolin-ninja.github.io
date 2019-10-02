@@ -8,16 +8,6 @@ class Skills extends Component {
   }
 
   render() {
-  	// const styles =
-  	//   {
-   //      'height': '200px',
-   //      'margin-bottom': '10',
-   //      'display':'flex',
-   //      'align-items': 'center',
-   //      'justify-content': 'center',
-   //      'font-size': '3em',
-   //  }
-
     const paddingB =
       {
         'marginBottom': '50px',
@@ -34,12 +24,13 @@ class Skills extends Component {
           <Grid>
           <div style={paddingT} />
             <Row>
-              <Description title='Cross-Functional' body='Developer, designer, project
-              manager, and tester. It took me 4 weeks to build & deploy my first full-stack web application with a dynamic database. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.'/>
+              <Description title='Well-Rounded'
+              body="I code daily in Ruby & SQL, building RESTful & GraphQL APIs at Salesforce (Heroku) and in C++ and Python at NYU. I built this portfolio in ReactJS, and analyzed data with STATA & R at UCSD. Away from the computer, I volunteer as a scuba ranger (Rescue Diver) in Belize, and ran a modelling agency in East Asia with a guy nicknamed 'Sexy Stalin'. I transition seamlessly between support and leadership, and easily adapt to new environments."/>
 
-              <Description title='Well-Rounded' body='I primarily code in Ruby & SQL at Heroku/Salesforce, and C++ at NYU. I learned to code with Python, built this portfolio in React JS, and analyzed data using STATA, R, & Excel at UCSD.'/>
+              <Description title='Not Stupid' body='I went from, "What is git?" to productionizing a web application with user authorization & a dynamic database in 10 weeks. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.
+              Straight out of bootcamp, I dove into an enterprise codebase with an on-call rotation, with no prior exposure to the languages or libraries. I recently built a TSL/SSL VPN from scratch... because grad school is wild.'/>
 
-              <Description title='Versatile' body="I am pursuing a M.S. in Cybersecurity at NYU. I hold a M.IA. in International Business Management and Environmental Policy from UCSD, and made the career switch to programming in 2018 to chase dreams & challenge convention." />
+              <Description title='Over-Achiever' body="I am pursuing a MS in Cybersecurity at NYU while working full time. My interests skew toward Access Management and Penetration Testing, & I aspire to lead a Red Team some day. I hold a Masters in International Affairs from UCSD, specialized in Corporate Social Responsibility. I made the career switch to software engineering in 2018 to chase dreams & challenge convention." />
             </Row>
           </Grid>
           <Row>

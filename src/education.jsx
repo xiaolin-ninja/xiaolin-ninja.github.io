@@ -18,17 +18,25 @@ class Education extends Component {
         <div className='header' ref='header' style={styles}>Education</div>
         <Grid fluid>
           <Row>
-            <Col className='noPad' xs={12} sm={4}><Box
-            url='https://www.linkedin.com/in/shxxu' 
-            bg='./assets/gf.jpg'
-            logo='/assets/ucsd.png' 
-            /></Col>
-            <Col className='noPad' xs={12} sm={4}><Box
+            <Col className='noPad' xs={12} sm={4}>
+            <center>UCSD</center>
+            <Box
             url='https://www.linkedin.com/in/shxxu'
-            bg='./assets/sftower.jpg'
-            logo='./assets/tandon.png'
+            bg='./assets/gf.jpg'
+            logo='/assets/ucsd.png'
             /></Col>
-            <Col className='noPad' xs={12} sm={4}><Box
+
+            <Col className='noPad' xs={12} sm={4}>
+            <center>NYU</center>
+            <Box
+            url='https://www.linkedin.com/in/shxxu'
+            bg='./assets/glassesheadshot.jpg'
+            logo='./assets/nyutandon.png'
+            /></Col>
+
+            <Col className='noPad' xs={12} sm={4}>
+            <center>Hackbright Academy</center>
+            <Box
             url='https://www.linkedin.com/in/shxxu'
             bg='./assets/hbpresentation.png'
             logo='/assets/hblogo.png'

@@ -1,10 +1,15 @@
-## Live Outside the Box
-### Shirley Xiaolin Xu
-#### [outsidethebox.live](http://outsidethebox.live)
+## Shirley Xiaolin Xu
 
 This portfolio was built with ReactJS by [Shirley Xiaolin Xu](https://www.linkedin.com/in/shxxu/).
 
-Shirley (XX) is a software engineer from San Francisco, CA. She is building APIs and optimizing database queries at Heroku (Salesforce), while working on a MS in Cybersecurity at NYU.
-She communicates in Ruby, Python, SQL, JS, Spanish, Chinese, and English. She's working on C++, JavaScript, French, and German.
+I learn languages to connect with people all over the world. I communicate in Ruby, Python, SQL, JS, Spanish, Chinese, and English; I'm learning Go, C++, French, and German.
 
-XX is excited to leverage her technical skillset with her past life as a small business owner, as well as an education in international political economy to make a lasting impact on the world.
+I am a back-end software engineer from San Francisco. I'm having a blast building and maintaining APIs & optimizing the scalability of a cloud application platform at Salesforce (Heroku), while learning to design secure systems at NYU (MS Cyber Security 2022). I hold a Master's of International Affairs from the University of California, specializing in Corporate Social Responsibility. I made the career switch to Software Engineering to chase dreams and challenge convention.
+
+Assertive and accommodating, I seamlessly transition between support and leadership. I strive to create an honest & inclusive environment for my peers, and treat every experience as a learning opportunity.
+
+Outside the office I'm a certified Pilates instructor, Krav Maga practitioner, and outdoor enthusiast with adventures in 20+ countries. I’m easier to get to know than to forget. :)
+
+U.S. passport. Global citizen
+www.xiaolin.ninja
+[Github] www.github.com/xiaolin-ninja

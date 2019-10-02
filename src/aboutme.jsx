@@ -15,7 +15,6 @@ class AboutMe extends Component {
         'alignItems': 'center',
         'justifyContent': 'center',
         'fontSize': '2.9em',
-        'marginBottom': '10px'
   	  }
 
     const padding =
@@ -26,7 +25,7 @@ class AboutMe extends Component {
   	return (
       <section className='AboutMe' style={padding}>
         <div ref='main'>
-          <div style={styles} >About Me</div>
+          <div style={styles}>About Me</div>
           <Content />
         </div>
       </section>
@@ -49,29 +48,23 @@ class Content extends Component {
 
 class Description extends Component {
   render() {
-    const padding =
-      {
-        'marginBottom': '50px',
-      }
-
     return (
-      <div style={padding}>
+      <div>
         <h1 className='linedHeader'>Shirley Xiaolin Xu, M.IA.</h1>
         <ul>
-          <li> Fluent in Spanish, Chinese, English; proficient in Ruby, Python, JavaScript, SQL, HTML/CSS; learning C++, French, & German.</li>
-          <li> Back-end <a href="https://www.github.com/xiaolin-ninja">software engineer</a> at Heroku, a product of Salesforce.<br/>
+          <li> Fluent in English, Chinese, Spanish; proficient in Ruby, Python, SQL; familiar with Go, C++, JavaScript, HTML/CSS, French, & German.</li>
+          <li> <a href="https://www.github.com/xiaolin-ninja">Back-end engineer</a> at Heroku/Salesforce. <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity student</a> at NYU.<br/>
             Past identities:
             <ul>
             <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
                 Business Development Consultant</a></li>
             <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank" rel="noopener noreferrer">
                 International Affairs Scholar (UCSD)</a></li>
-            <li> Travel blogger <a target="_blank" href="https://instagram.com/xiaolin.ninja" rel="noopener noreferrer">
-                @xiaolin.ninja</a></li>
             <li> Model Agent, Airbnb Host, Pilates Instructor, & EFL Teacher <br/> </li>
             </ul>
           </li>
-          <p style={padding}> I learn languages to connect with people all over the world. <span role="img" aria-label="emoji">🌸</span></p>
+          <br></br>
+          <p> I learn languages to connect with people all over the world. <span role="img" aria-label="emoji">🌸</span></p>
         </ul>
       </div>
     )
@@ -80,15 +73,10 @@ class Description extends Component {
 
 class Photo extends Component {
   render() {
-    const padding =
-      {
-        'margin': '0.6em',
-      }
-
     return (
         <div>
-        <img className='img-responsive center-block myPhoto' src={'./assets/uke2.jpg'}
-             alt='' width="100%" height='100%' />
+        <img className='photo' src={'./assets/uke2.jpg'}
+             alt='' width="100%" height='100%'/>
         </div>
     )
   }
