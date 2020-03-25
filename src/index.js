@@ -15,8 +15,8 @@ ReactDOM.render(
     <ScrollArrow />
     <Welcome />
     <AboutMe />
-    <Education />
     <Skills />
+    <Education />
     <Footer />
   </div>,
 

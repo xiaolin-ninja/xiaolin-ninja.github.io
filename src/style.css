@@ -24,9 +24,18 @@ p {
   text-shadow:0 0 0 #f00, 0 0 1px transparent;
 }
 
+.sectionHeader {
+  height: 150px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4em;
+}
+
 .grayscale {
-      filter: grayscale(100%);
-      -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
 .header {
@@ -44,18 +53,20 @@ p {
 }
 
 .photo {
-  border-radius: 10%;
-  padding-bottom: 30px;
-  height: auto;
+  border-radius: 5%;
+  width: 93%;
+  height: 93%;
+  margin-bottom: 30px;
+   -webkit-box-shadow: 0 5px 10px #777;
+   -moz-box-shadow: 0 5px 10px #777;
+   box-shadow: 0 5px 10px #777;
 }
 
-/*.Experience {
-  background-image: url('/assets/projectsbg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.Photo {
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-*/
 
 .Welcome {
   background-image: url('/assets/rockTurtle.jpg');
@@ -74,8 +85,9 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: justify;
-  font-size: 99%;
+  text-align: left;
+  font-size: 80%;
+  margin-bottom: 10px;
 }
 
 .Education {
@@ -85,19 +97,22 @@ p {
   background-size: cover;
   color: #fff;
   position: center;
+  margin-bottom: 10px;
+  padding-bottom: 20px
 }
 
 .Skills {
-  background-image:
-    url('/assets/ocean.jpg');
+  background-image: url('/assets/ocean.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #fff;
   font-size: 75%;
-  text-align: justify;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
-
 
 .Footer {
   background-color: #000914;

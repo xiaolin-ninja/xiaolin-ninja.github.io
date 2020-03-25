@@ -8,21 +8,10 @@ class Skills extends Component {
   }
 
   render() {
-    const paddingB =
-      {
-        'marginBottom': '50px',
-      }
-
-    const paddingT =
-      {
-        'height': '60px',
-      }
-
     return (
       <section className='Skills'>
         <div ref='main'>
           <Grid>
-          <div style={paddingT} />
             <Row>
               <Description title='Well-Rounded'
               body="I code daily in Ruby & SQL at Salesforce (Heroku), and in C++ & Python at NYU. I created this portfolio with ReactJS & CSS, and analyzed data with STATA & R at UCSD. Away from the internet, I participate in speech competitions, volunteer in marine conservation (Rescue Diver), and ran a talent agency with a guy nicknamed 'Sexy Stalin'. I seamlessly transition between support & leadership, and easily adapt to new environments."/>
@@ -34,10 +23,6 @@ class Skills extends Component {
             </Row>
           </Grid>
           <Row>
-          <div style={paddingB}>
-          <p/>
-          <p/>
-          </div>
           </Row>
           </div>
       </section>
@@ -47,22 +32,19 @@ class Skills extends Component {
 
 class Description extends Component {
   render() {
-  	const styles =
+  	const header =
   	  {
   	  	'textAlign': 'center',
   	  }
 
     const body = {
-      'padding': '0.5em'
+      'padding': '0.5em',
+      'color': '#e6ffff'
     }
-
-    // const padding = {
-    //   'padding' : '50px'
-    // }
 
     return (
       <Col sm={4}>
-        <h2 style={styles} className='linedHeader'>{this.props.title}</h2>
+        <h2 style={header} className='linedHeader'>{this.props.title}</h2>
         <div className='background' style={body}>
           <p>{this.props.body}</p>
         </div>

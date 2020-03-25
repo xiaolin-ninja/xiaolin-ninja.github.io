@@ -45,7 +45,7 @@ class Icon extends Component {
         // eslint-disable-next-line
         (this.props.url)}
            alt='' className='icon clickable' src={this.props.icon} /></Col>
-           )
+    )
   }
 }
 

@@ -7,15 +7,9 @@ class Education extends Component {
     sr.reveal(this.refs.header, {reset:true, viewFactor: 0.4, useDelay: 'onload'})
   }
   render() {
-  	const styles =
-  	  {
-        'marginBottom': '10px',
-        'paddingBottom': '20px'
-  	  }
-
   	return (
-  	  <section className='Education' style={styles}>
-        <div className='header' ref='header' style={styles}>Education</div>
+  	  <section className='Education'>
+        <div className='sectionHeader' ref='header'>Education</div>
         <Grid fluid>
           <Row>
             <Col className='noPad' xs={12} sm={4}>
