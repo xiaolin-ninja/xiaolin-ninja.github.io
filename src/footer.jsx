@@ -9,6 +9,16 @@ class Footer extends Component {
       'marginTop': '10px',
     }
 
+    const email =
+    {
+      'color': '#fff',
+      'marginLeft': 'auto',
+      'marginRight': '0',
+      'justifyContent': 'center',
+      'marginTop': 'auto',
+      'marginBottom': 'auto',
+    }
+
     return (
       <section className='Footer' style={styles}>
         <Grid>
@@ -22,6 +32,8 @@ class Footer extends Component {
           url='https://drive.google.com/file/d/1Bs3dYQJYbsOUTJwXG_rKC2QU4mcEIwvv/'
           icon='./assets/heels.png'/>
           <Col xs={3} />
+          <div style={email}>
+          <Col xs={3}> Thank you for your time!</Col></div>
           </Row>
         </Grid>
       </section>
