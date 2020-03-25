@@ -25,12 +25,12 @@ class Skills extends Component {
           <div style={paddingT} />
             <Row>
               <Description title='Well-Rounded'
-              body="I code daily in Ruby & SQL, building RESTful & GraphQL APIs at Salesforce (Heroku) and in C++ and Python at NYU. I built this portfolio in ReactJS, and analyzed data with STATA & R at UCSD. Away from the computer, I volunteer as a scuba ranger (Rescue Diver) in Belize, and ran a modelling agency in East Asia with a guy nicknamed 'Sexy Stalin'. I transition seamlessly between support and leadership, and easily adapt to new environments."/>
+              body="I code daily in Ruby & SQL, building RESTful & GraphQL APIs at Salesforce (Heroku); and in C++ and Python at NYU. I created this portfolio with ReactJS & CSS, and analyzed data with STATA & R at UCSD. Away from the computer, I volunteer as a scuba ranger (Rescue Diver) in Belize, and ran a talent agency in East Asia with a guy nicknamed 'Sexy Stalin'. I transition seamlessly between support and leadership, and easily adapt to new environments."/>
 
-              <Description title='Not Stupid' body='I went from, "What is git?" to productionizing a web application with user authorization & a dynamic database in 10 weeks. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.
-              Straight out of bootcamp, I dove into an enterprise codebase with an on-call rotation, with no prior exposure to the languages or libraries. I recently built a TSL/SSL VPN from scratch... because grad school is wild.'/>
+              <Description title='Not Stupid' body='I went from, "What is git?" to productionizing a web application with user auth & a dynamic database in 10 weeks. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.
+              Straight out of bootcamp, I dove into an enterprise codebase with an on-call rotation, with no prior exposure to the languages, libraries, and tooling. I recently built a TLS/SSL VPN from scratch... because grad school is wild.'/>
 
-              <Description title='Over-Achiever' body="I am pursuing a MS in Cybersecurity at NYU while working full time. My interests skew toward Access Management and Penetration Testing, & I aspire to lead a Red Team some day. I hold a Masters in International Affairs from UCSD, specialized in Corporate Social Responsibility. I made the career switch to software engineering in 2018 to chase dreams & challenge convention." />
+              <Description title='Over-Achiever' body="I am pursuing a MS in Cybersecurity at NYU while working full time. I am interested in Access Management and Penetration Testing, & aspire to lead a Red Team some day. I hold a Masters in International Affairs from UCSD, specialized in Corporate Social Responsibility. I made the career switch to software engineering to chase dreams & challenge convention." />
             </Row>
           </Grid>
           <Row>
