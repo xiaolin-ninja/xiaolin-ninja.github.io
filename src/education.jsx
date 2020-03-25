@@ -68,17 +68,17 @@ class Box extends Component {
 
     const img =
     {
-      'position': 'relative'
+      'position': 'relative',
     }
 
     return (
       <div ref='box'>
         <div className='circleWrapper'>
-          <img className='circleBgWrapper' src={this.props.bg}  alt=''/>
+          <img className='circleBgWrapper' src={this.props.bg} alt=''/>
           <div className='circleContentWrapper clickable' onClick={() => this.openNew(this.props.url)}>
           <br/><br/>
            <h5 style={text}>{this.props.description}</h5>
-           <img className='logoWrapper' src={this.props.logo} alt=''
+           <img className='grayscale logoWrapper' src={this.props.logo} alt=''
            style={img} />
           </div>
           </div>

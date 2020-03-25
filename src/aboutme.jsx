@@ -52,8 +52,8 @@ class Description extends Component {
       <div>
         <h1 className='linedHeader'>Shirley Xiaolin Xu, M.IA.</h1>
         <ul>
-          <li> Fluent in English, Chinese, Spanish; proficient in Ruby, Python, SQL; familiar with Go, C++, JavaScript, HTML/CSS, French, & German.</li>
-          <li> <a href="https://www.github.com/xiaolin-ninja">Back-end engineer</a> at Heroku/Salesforce. <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity student</a> at NYU.<br/>
+          <li> Fluent in English, Chinese (Mandarin), Spanish, Ruby; proficient in Python, SQL, French; familiar with Go, C++, ReactJS, HTML/CSS, Cantonese, & German.</li>
+          <li> <a href="https://www.github.com/xiaolin-ninja">Back-end engineer</a> at Heroku/Salesforce. <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity student</a> at NYU Tandon.<br/>
             Past identities:
             <ul>
             <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
