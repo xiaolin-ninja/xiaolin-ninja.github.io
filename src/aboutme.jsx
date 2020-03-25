@@ -39,8 +39,12 @@ class Description extends Component {
     return (
       <div style={a}>
         <ul>
-          <li> Fluent in English, Chinese (Mandarin), Spanish, Ruby; proficient in Python, SQL, French; familiar with Go, C++, ReactJS, HTML/CSS, Cantonese, & German.</li>
-          <li> <a href="https://www.github.com/xiaolin-ninja">Back-end engineer</a> at Heroku/Salesforce. <br/><a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity student</a> at NYU Tandon.<br/>
+          <li> Fluent in English, Chinese (Mandarin), Spanish, & Ruby <br/>
+                Proficient in Python, SQL, & French <br/>
+                Familiar with Go, C++, ReactJS, HTML/CSS, Cantonese, & German
+          </li>
+          <p/>
+          <li> <a href="https://www.github.com/xiaolin-ninja">Back-end engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity student</a> at NYU Tandon.<br/>
             <p/>
             Past identities:
             <ul>
