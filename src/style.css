@@ -91,11 +91,28 @@ p {
 }
 
 .Education {
-  background-image: url('/assets/experiencesbg.jpg');
+  background: url("/assets/experiencesbg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #fff;
+  position: center;
+  margin-bottom: 10px;
+  padding-bottom: 20px
+}
+
+.Company {
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.35)
+    ),
+    url("/assets/slackbg.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 75%;
+  color: #00010f;
   position: center;
   margin-bottom: 10px;
   padding-bottom: 20px
