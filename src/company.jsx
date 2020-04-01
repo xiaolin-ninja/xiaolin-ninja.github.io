@@ -47,7 +47,7 @@ class Description extends Component {
         <p/>
         Slack is indispensible for a distributed company like Heroku, and the best choice year after year. I depend on Slack daily to connect and collaborate with diverse communities that define my world. I've always been impressed by how Slack remains reliable, user-friendly, and responsive to feedback; while sustaining growth without disenfranchising free-tier users or losing its spark. Slack leadership shows impressive transparency in blog posts, with a candid & relatable voice -- unlike usual corporate propaganda.
         <p/>
-        My conversations with Karen and a friend on the Internal Tools team convinced me that Slack is a place that never stops innovating; where talent can flourish with exciting projects, high customer & industry impact, and good vibes from the community. I am eager to further explore this opportunity and the next chapter of my career with Slack.
+        My conversations with Karen and a friend on the Internal Tools team convinced me that Slack is a place that never stops innovating; where talent can flourish with exciting projects, high customer & industry impact, and good vibes from the community. I hope to further explore this opportunity and the next chapter of my career with Slack.
       </div>
     )
   }
