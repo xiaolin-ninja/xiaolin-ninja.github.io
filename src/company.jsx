@@ -28,7 +28,7 @@ class Company extends Component {
 class Header extends Component {
   render() {
     return (
-      <div className='sectionHeader'>Why Slack?</div>
+      <div className='sectionHeader'>Why Aha!?</div>
     )
   }
 }
@@ -37,29 +37,19 @@ class Description extends Component {
   render() {
     const a = {
       'paddingBottom': '20px',
-      'color': '#000'
+      'color': '#fff'
     }
 
     return (
       <div style={a}>
-        Last week, <a href="https://www.linkedin.com/in/karenism/">Karen</a> reached out to me about an opening with Enterprise at Slack. I am contentedly growing at Heroku, working on a challenging project with a supportive team, and on-track for career advancement.
-        However, as she described the work her security-focused teams have done and what's in store for the future, I was fascinated. I have been itching for the opportunity to contribute to an innovative and security-focused feature, at a fast-growing company with a mission and impact that motivate me.
-        <p/>
-        Slack is indispensible for a distributed company like Heroku, and the best choice year after year. I depend on Slack daily to connect and collaborate with diverse communities that define my world. I've always been impressed by how Slack remains reliable, user-friendly, and responsive to feedback; while sustaining growth without disenfranchising free-tier users or losing its spark. Slack leadership shows impressive transparency in blog posts, with a candid & relatable voice -- unlike usual corporate propaganda.
-        <p/>
-        My conversations with Karen and a friend on the Internal Tools team convinced me that Slack is a place that never stops innovating; where talent can flourish with exciting projects, high customer & industry impact, and good vibes from the community. I hope to further explore this opportunity and the next chapter of my career with Slack.
+      I deeply value the people behind the code, and strive to build a strong sense of community at work; where everyone is invested in each other's success. While I am contentedly growing at Heroku and working on a challenging team with great coworkers, we have morphed from 300 to 30,000 after integrating with Salesforce. I am aching to contribute to a smaller, close-knit company that maximizes innovation and minimizes corporate bottlenecks.
+      <p/>
+      I believe I would be a great fit for Aha! in the <u><a href="https://www.aha.io/company/careers/current-openings/security_engineer_us" style={a}>Security Engineer role</a></u>. I work on Ruby/Rails APIs on the Web Services team at Heroku, a container-based PaaS built on AWS that streamlines the deployment, maintenance, & scaling of apps on the Cloud. I have also worked on Security-related projects like automating platform abuse detection and implementing DMARC to prevent phishing attacks using our domain; and would love to make finding and fixing security vulnerabilities my priority.
+      <p/>
+      I love Aha!'s dedication to giving back to the community. In 2 years with Salesforce, I've logged over 120 volunteer hours and leveraged donation matching to raise ~$3000 for marine conservation. I have a Master in International Affairs, specialized in Corporate Social Responsibility, and am a strong proponent of Social Capitalism.
+      <p/>
+      I work for an internationally distributed company, while pursuing a MS in Cybersecurity online: I know the joys of remote collaboration, and am adept at handling the frustrations. Glassdoor reviews have convinced me that Aha! is a place where talent can flourish with exciting projects, high customer & industry impact, and genuinely enriching work culture. I hope to further explore this opportunity and the next chapter of my career with Aha!.
       </div>
-    )
-  }
-}
-
-class Photo extends Component {
-  render() {
-    return (
-    <div className='Photo'>
-      <img className='photo' src={'./assets/uke2.jpg'}
-       alt=''/>
-    </div>
     )
   }
 }
