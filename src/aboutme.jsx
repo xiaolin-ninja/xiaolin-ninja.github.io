@@ -40,18 +40,17 @@ class Description extends Component {
       <div style={a}>
         <ul>
           <li> Fluent in English, Chinese (Mandarin), Spanish, & Ruby <br/>
-                Proficient in Python, SQL, & French <br/>
-                Familiar with Go, C++, ReactJS, HTML/CSS, Cantonese, & German
+               Familiar with Go, C++, Python, SQL, ReactJS, HTML/CSS, Cantonese, & German
           </li>
           <p/>
-          <li> <a href="https://www.github.com/xiaolin-ninja">Back-end engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity student</a> at NYU Tandon.<br/>
+          <li> <a href="https://www.github.com/xiaolin-ninja">API engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity candidate</a> at New York University.<br/>
             <p/>
             Past identities:
             <ul>
             <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
                 Business Development Consultant</a></li>
             <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank" rel="noopener noreferrer">
-                International Affairs Scholar (UCSD)</a></li>
+                International Affairs Scholar (M.IA, UCSD)</a></li>
             <li> Model Agent, Airbnb Host, Pilates Instructor, & EFL Teacher <br/> </li>
             </ul>
           </li>

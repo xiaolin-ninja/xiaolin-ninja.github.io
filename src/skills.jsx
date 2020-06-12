@@ -14,7 +14,7 @@ class Skills extends Component {
           <Grid>
             <Row>
               <Description title='Well-Rounded'
-              body="I code daily in Ruby & SQL at Salesforce (Heroku), and in C++ & Python at NYU. I created this portfolio with ReactJS & CSS, and analyzed data with STATA & R at UCSD. Away from the internet, I participate in speech competitions, volunteer in marine conservation (Rescue Diver), and ran a talent agency with a guy nicknamed 'Sexy Stalin'. I seamlessly transition between support & leadership, and easily adapt to new environments."/>
+              body="I code daily in Ruby, Go, & SQL at Salesforce (Heroku), and in C, C++ & Python at NYU. I created this portfolio with ReactJS, and analyzed data with STATA & R at UCSD. Away from the internet, I train martial arts, volunteer in marine conservation (Rescue Diver), and ran a talent agency with a guy nicknamed 'Sexy Stalin'. I seamlessly transition between support & leadership, and easily adapt to new environments."/>
 
               <Description title='Not Stupid' body='I went from, "What is git?" to productionizing a web application with user auth & a dynamic database in 10 weeks. I presented "BudBud: A Buddy for your Bud" at Hackbright Academy graduation.
               Straight out of bootcamp, I dove into an enterprise codebase with an on-call rotation, with no prior exposure to the languages, libraries, and tooling. I recently built a TLS/SSL VPN from scratch on VMs... because grad school is wild.'/>
