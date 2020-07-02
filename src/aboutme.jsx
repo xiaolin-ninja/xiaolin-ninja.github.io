@@ -40,7 +40,7 @@ class Description extends Component {
       <div style={a}>
         <ul>
           <li> Fluent in English, Chinese (Mandarin), Spanish, & Ruby <br/>
-               Familiar with Go, C++, Python, SQL, Javascript, Cantonese, & German
+               Familiar with Go, C++, Python, SQL, JavaScript, Cantonese, & German
           </li>
           <p/>
           <li> <a href="https://www.github.com/xiaolin-ninja">API engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity candidate</a> at New York University.<br/>

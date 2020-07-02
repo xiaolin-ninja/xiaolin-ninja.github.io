@@ -13,7 +13,7 @@ class Education extends Component {
         <Grid fluid>
           <Row>
             <Col className='noPad' xs={12} sm={4}>
-            <center>UCSD</center>
+            <center>Master of International Affairs</center>
             <Box
             url='https://www.linkedin.com/in/shxxu'
             bg='./assets/gf.jpg'
@@ -21,15 +21,15 @@ class Education extends Component {
             /></Col>
 
             <Col className='noPad' xs={12} sm={4}>
-            <center>NYU</center>
+            <center>M.S. Cybersecurity</center>
             <Box
             url='https://www.linkedin.com/in/shxxu'
-            bg='./assets/glassesheadshot.jpg'
+            bg='./assets/0.png'
             logo='./assets/nyutandon.png'
             /></Col>
 
             <Col className='noPad' xs={12} sm={4}>
-            <center>Hackbright Academy</center>
+            <center>Software Engineering Fellowship</center>
             <Box
             url='https://www.linkedin.com/in/shxxu'
             bg='./assets/hbpresentation.png'

@@ -28,7 +28,7 @@ class Company extends Component {
 class Header extends Component {
   render() {
     return (
-      <div className='sectionHeader'>Why Slack?</div>
+      <div className='sectionHeader'>Why Square?</div>
     )
   }
 }
@@ -37,29 +37,20 @@ class Description extends Component {
   render() {
     const a = {
       'paddingBottom': '20px',
-      'color': '#000'
+      'color': '#fff',
     }
 
     return (
       <div style={a}>
-        Last week, <a href="https://www.linkedin.com/in/karenism/">Karen</a> reached out to me about an opening with Enterprise at Slack. I am contentedly growing at Heroku, working on a challenging project with a supportive team, and on-track for career advancement.
-        However, as she described the work her security-focused teams have done and what's in store for the future, I was fascinated. I have been itching for the opportunity to contribute to an innovative and security-focused feature, at a fast-growing company with a mission and impact that motivate me.
+        Square SF was the first tech office I ever set foot in. Well, I followed some folks into an elevator that led to Uber instead. A stark, dark contrast to the spacious & sunny Square office in the same building, & was escorted to the right office. I suppose it was my first attempt at Social Engineering. ¯\_(ツ)_/¯
         <p/>
-        Slack is indispensible for a distributed company like Heroku, and the best choice year after year. I depend on Slack daily to connect and collaborate with diverse communities that define my world. I've always been impressed by how Slack remains reliable, user-friendly, and responsive to feedback; while sustaining growth without disenfranchising free-tier users or losing its spark. Slack leadership shows impressive transparency in blog posts, with a candid & relatable voice -- unlike usual corporate propaganda.
+        Mark Funk, a former Security Engineer at Square, was an invaluable mentor during my transition to software engineering. For a company to keep such an incredible human and engineer for so long, speaks volumes of its culture and investment in talent. As a former small business owner, I have much respect for Square's impact on commerce, and am very excited to explore the myriad of threats such a complex data processing & auth system faces.
         <p/>
-        My conversations with Karen and a friend on the Internal Tools team convinced me that Slack is a place that never stops innovating; where talent can flourish with exciting projects, high customer & industry impact, and good vibes from the community. I hope to further explore this opportunity and the next chapter of my career with Slack.
+        Building a scalable intrusion detection platform is right up my alley:
+        I've spent the past 2.5 years at Heroku optimizing the scalability of one of the oldest and largest cloud Platforms as a Service. One of my first projects was creating internal tooling to automate fraud detection. I also helped build Salesforce Evergreen, a serverless Function as a Service, from the ground up --- while pursing a Masters degree in Cybersecurity. In my past careers, I helped businesses expand to global markets & wrote one of two graduate school theses on the political & economic impact of the Deep Water Horizon oil spill.
+        <p/>
+        I bring to the table a unique combination of experience in production engineering, security, business, and international policy, and a passion for Cybersecurity. I can't wait to help build great tools and keep Square customers safe.
       </div>
-    )
-  }
-}
-
-class Photo extends Component {
-  render() {
-    return (
-    <div className='Photo'>
-      <img className='photo' src={'./assets/uke2.jpg'}
-       alt=''/>
-    </div>
     )
   }
 }
