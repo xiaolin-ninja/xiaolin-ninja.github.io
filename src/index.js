@@ -8,7 +8,6 @@ import ScrollArrow from './components/scrollArrow.jsx';
 import Education from './education.jsx';
 import AboutMe from './aboutme';
 import Skills from './skills';
-import Company from './company';
 import Footer from './footer';
 
 ReactDOM.render(
@@ -18,7 +17,6 @@ ReactDOM.render(
     <AboutMe />
     <Skills />
     <Education />
-    <Company />
     <Footer />
   </div>,
 
