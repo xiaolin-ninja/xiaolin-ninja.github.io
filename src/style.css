@@ -103,16 +103,12 @@ p {
 
 .Company {
   background:
-    linear-gradient(
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0.35)
-    ),
-    url("/assets/slackbg.png");
+    #000000;
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
   font-size: 75%;
-  color: #00010f;
+  color: #ffffff;
   position: center;
   margin-bottom: 10px;
   padding-bottom: 20px
