@@ -47,11 +47,13 @@ class Description extends Component {
             <p/>
             Past identities:
             <ul>
-            <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
-                Business Development Consultant</a></li>
             <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank" rel="noopener noreferrer">
-                International Affairs Scholar (M.IA, UCSD)</a></li>
-            <li> Model Agent, Airbnb Host, Pilates Instructor, & EFL Teacher <br/> </li>
+                International Affairs Scholar (M.IA, UCSD)
+            </a></li>
+            <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
+                Business Development Consultant
+            </a></li>
+            <li> Model Agent, Pilates Instructor, & English Teacher <br/> </li>
             </ul>
           </li>
           <br/>
