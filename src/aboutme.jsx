@@ -43,7 +43,7 @@ class Description extends Component {
                Familiar with Go, C++, Python, SQL, JavaScript, Cantonese, & German
           </li>
           <p/>
-          <li> <a href="https://www.github.com/xiaolin-ninja">API engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity candidate</a> at New York University.<br/>
+          <li> <a href="https://www.github.com/xiaolin-ninja">Senior Software Engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity candidate</a> at New York University.<br/>
             <p/>
             Past identities:
             <ul>
