@@ -19,11 +19,11 @@ class Skills extends Component {
                                  I hold a Masters in International Affairs from UCSD, specialized in Business Management & Corporate Social Responsibility; I switched careers to software engineering to chase dreams and challenge convention." />
 
               <Description title='Not Stupid'
-                           body='I went from "What is git?" to Senior Software Engineer at Salesforce in 3 years. As the first junior member of the Heroku Web Services team, I dove into a massive enterprise codebase and intense on-call rotation with no prior exposure to the languages, libraries, and tooling; & shipped an incident-preventing feature my second month.
+                           body='I went from "What is git?" to Senior Software Engineer at Salesforce in 2.5 years. As the only junior member of Heroku at the time, I dove into a massive enterprise codebase and intense on-call rotation with no prior exposure to the languages, libraries, and tooling. I shipped an incident-preventing feature my second month.
                            I am currently pursuing a MS in Cybersecurity at NYU while working full time.'/>
 
               <Description title='Mission-Driven'
-                           body="I bring to the table the unique combination of technical expertise and business experience.
+                           body="I bring to the table the unique combination of technical expertise and business acumen.
                            My multicultural background & interdisciplinary education enable me to communicate effectively with empathy, process information from diverse perspectives, and adapt quickly to change.
                            As a global citizen, I aim to build a secure & sustainable world for all: socially, economically, environmentally, & digitally.
                            "/>
