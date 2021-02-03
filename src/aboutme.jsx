@@ -25,7 +25,7 @@ class AboutMe extends Component {
 class Header extends Component {
   render() {
     return (
-      <div className='sectionHeader'>About Me</div>
+      <div className='sectionHeader'>Specs</div>
     )
   }
 }
@@ -48,7 +48,7 @@ class Description extends Component {
             Past identities:
             <ul>
             <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank" rel="noopener noreferrer">
-                International Affairs Scholar (M.IA, UCSD)
+                Master of International Affairs, UCSD
             </a></li>
             <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
                 Business Development Consultant
