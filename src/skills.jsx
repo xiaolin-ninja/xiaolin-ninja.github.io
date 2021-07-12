@@ -13,16 +13,16 @@ class Skills extends Component {
         <div ref='main'>
           <Grid>
             <Row>
-              <Description title='Hire Me'
+              <Description title='The Woman'
                            body="I design, build, and optimize enterprise web services by day, and learn to exploit security vulnerabilities by night.
                                  I code daily in Ruby, Go, & SQL at Salesforce (Heroku), and in C++ & Python at NYU.
                                  I spent 5 years researching the intersection of Socialism & Capitalism in a globalized future. After an entrepreneurial streak in Asia, I learned to code and began a deep dive into Computer Science." />
 
-              <Description title='I am Super'
+              <Description title='The Myth'
                            body='I went from "What is git?" to Senior Software Engineer at Salesforce in 2.5 years. As the only junior member of Heroku, I tackled a massive enterprise codebase and intense on-call rotation with no prior exposure to the languages, libraries, and tooling. I shipped an incident-preventing feature my second month.
                            I am currently pursuing a MS in Cybersecurity at NYU while working full time.'/>
 
-              <Description title='Awesome'
+              <Description title='The Legend'
                            body="I bring to the table a unique combination of technical expertise and business acumen.
                            My multicultural background & interdisciplinary education enable me to communicate effectively with empathy, process information from diverse perspectives, and adapt quickly to change.
                            My mission is to build a secure and sustainable future for all, and leave this world better than I found it. ✌️
