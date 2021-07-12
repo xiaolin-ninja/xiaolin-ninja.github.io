@@ -43,13 +43,15 @@ class Description extends Component {
                Familiar with Go, C++, Python, SQL, JavaScript, Cantonese, & German
           </li>
           <p/>
-          <li> <a href="https://www.github.com/xiaolin-ninja">Senior Software Engineer</a> at Heroku/Salesforce. <br/> <a href="https://www.youtube.com/watch?v=N2ZdcOT1kwo">MS Cybersecurity candidate</a> at New York University.<br/>
+          <li> <a href="https://www.github.com/xiaolin-ninja">Software Engineer</a> at HashiCorp <br/> 
+          <a href="https://youtu.be/Fa5Zpzq4Kvs">MS Cybersecurity candidate</a> at New York University<br/>
             <p/>
             Past identities:
             <ul>
+            <li> <a href="https://www.github.com/xiaolin-ninja">Senior Software Engineer</a>, Heroku/Salesforce</li>
             <li> <a href="https://gps.ucsd.edu/_files/faculty/gourevitch/gourevitch_cs_xu.pdf" target="_blank" rel="noopener noreferrer">
-                Master of International Affairs, UCSD
-            </a></li>
+                Master of International Affairs</a>, UCSD
+            </li>
             <li> <a href="https://www.linkedin.com/in/shxxu/" target="_blank" rel="noopener noreferrer">
                 Business Development Consultant
             </a></li>
